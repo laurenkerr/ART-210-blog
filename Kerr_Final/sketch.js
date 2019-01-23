@@ -20,7 +20,7 @@ let notRaining = true;
 let rainCanSound = true;
 
 //FULLSCREEN
-let canvas, ctx, sizeRect, scroll;
+let canvas, ctx, sizeRect, scroll, burner;
 
 function preload() {
   imgHills = loadImage('assets/Hills.png');
